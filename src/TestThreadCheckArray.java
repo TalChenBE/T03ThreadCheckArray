@@ -1,7 +1,19 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+/**
+ * Description of TestThreadCheckArray
+ * 
+ * @auther Tal-chen
+ * @version 1.0 27/10/2021
+ */
 public class TestThreadCheckArray {
+	/**
+	 * Description of main
+	 * 
+	 * @param args - array of String
+	 * @exception InterruptedException
+	 */
 	public static void main(String[] args) {
 		try (Scanner input = new Scanner(System.in)) {
 			Thread thread1, thread2;
